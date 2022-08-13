@@ -18,10 +18,6 @@ const generatePhrases = () => {
     for (let i = 0; i < big_results_inputs.length; i++) {
       for (let j = 1; j < prepositions.length + 1; j++) {
         big_results[i + j] =
-        // .
-        // .
-        // .
-        // .
           "Comment " + big_results_inputs[i] + prepositions[j - 1] + pain;
         document.getElementById(`result_${k + 1}`).innerHTML =
           big_results[i + j];
@@ -60,20 +56,4 @@ const generatePhrases = () => {
   };
   getFirstLines();
   get_amazing_headline();
-  // console.log(big_results[0]);
-  // console.log(big_results[1]);
-  // console.log(big_results[2]);
-  // console.log(big_results[3]);
-  // for (let i = 0; i < 5; i++) {
-  //   document.getElementById(`result_${i + 1}`).innerHTML = big_results[i];
-  // }
-  // getSecondTwoLines();
-  // document.getElementById("result_1").innerHTML =
-  //   "How To " + big_result_1 + " Without " + pain;
-  // document.getElementById("result_2").innerHTML =
-  //   "How To " + big_result_1 + " So You Can Avoid " + pain;
-  // document.getElementById("result_3").innerHTML =
-  //   "How To " + big_result_2 + " Without " + pain;
-  // document.getElementById("result_4").innerHTML =
-  //   "How To " + big_result_2 + " So You Can Avoid " + pain;
 };
