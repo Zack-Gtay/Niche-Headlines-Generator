@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="title_container">
+      <h1>Headline Script Generator</h1>
+    </div>
+    <div class="header_container">
+      <div class="header_instructions">
+        <h2>Instructions:</h2>
+        <ol>
+          <li>Fill out the form below...</li>
+          <li>Click the "Build" Button...</li>
+          <li>Use headlines to make more sales and grab more subscribers!</li>
+        </ol>
+      </div>
+      <div class="header_img">
+        <img src="./img/character.png" alt="" />
+      </div>
+    </div>
+    <form class="form">
+      <div class="form_input_container">
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="niche"
+            placeholder="Niche audience (singular):"
+          />
+          <p>"My target audience is a / an ____."</p>
+          <span
+            >(Ex: beginner investor, ebook author, home seller, home buyer,
+            etc.)</span
+          >
+        </div>
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="main_keyword_1"
+            placeholder="Your #1 main keyword topic:"
+          />
+          <p>"My main topic is ____."</p>
+          <span
+            >(Ex: stock investing, ebook marketing, for sale by owner, home
+            buying, etc.)
+          </span>
+        </div>
+      </div>
+      <div class="form_input_container">
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="main_keyword_2"
+            placeholder="Your #2 main keyword topic:"
+          />
+          <p>"My other main topic is ____."</p>
+          <span
+            >(Ex: pick winning stocks, ebook writing, fsbo, house hunting, etc.)
+          </span>
+        </div>
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="big_result_1"
+            placeholder="What is the #1 BIG Result they want? (Starts with VERB):"
+          />
+          <p>"My audience really wants to _____." (VERB)</p>
+          <span
+            >(Ex: pick more money-making stocks; publish your own outrageously
+            profitable ebook; get your home sold for top dollar; buy your own
+            dream home; etc.)
+          </span>
+        </div>
+      </div>
+      <div class="form_input_container">
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name="big_result_2"
+            id="big_result_2"
+            placeholder="What is the #2 BIG Result they want? (Starts with VERB):"
+          />
+          <p>"My audience really wants to _____." (VERB)</p>
+          <span
+            >(Ex: earn a double-digit return on your stock investments; create
+            passive income from amazon royalty checks; find a qualified buyer in
+            your timeframe; get a monthly payment you can feel good about; etc.)
+          </span>
+        </div>
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="pain"
+            placeholder="What is a Pain they want to avoid in this area?:"
+          />
+          <p>
+            "My audience really wants to avoid ______." (VERB ending in "ing")
+          </p>
+          <span
+            >(Ex: losing money on stocks, trying to write it all yourself,
+            paying a Realtor commission, spending weeks in a car looking at
+            houses, etc.)
+          </span>
+        </div>
+      </div>
+      <div class="form_input_container">
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="roadblock"
+            placeholder="What is a Roadblock they see as holding them back from their goal?:"
+          />
+          <p>Completes statement "Even if ______"</p>
+          <span
+            >(Ex: you have never invested in stocks before now, you think you
+            can't write, you have no marketing or sales experience, you have
+            less-than-perfect credit, etc.)</span
+          >
+        </div>
+        <div class="form_input">
+          <label for=""></label>
+          <input
+            type="text"
+            name=""
+            id="timeframe"
+            placeholder="In what timeframe can you deliver results?:"
+          />
+          <p>"You'll see results in _____."</p>
+          <span>(Ex: 30 days; 15 minutes or less; one week; etc.) </span>
+        </div>
+      </div>
+
+      <div class="button_container">
+        <button type="button" onclick="generatePhrases()">
+          <i class="fa-solid fa-play"></i>Build
+        </button>
+      </div>
+      <ul style="list-style: none">
+        <li id="result_1"></li>
+        <li id="result_2"></li>
+        <li id="result_3"></li>
+        <li id="result_4"></li>
+        <li id="result_5" style="margin-top: 10px"></li>
+        <li id="result_6"></li>
+        <li id="result_7"></li>
+        <li id="result_8"></li>
+        <li id="result_9"></li>
+        <li id="result_10"></li>
+      </ul>
+      <p id="valueInput"></p>
+      <p id="valueInput"></p>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
