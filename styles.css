@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Public Sans', sans-serif;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  width: 100%;
+  height: 100%;
+}
+
+.title_container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title_container h1 {
+  color: white;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 90px;
+  margin-top: 30px;
+}
+
+.header_img img {
+  width: 300px;
+}
+
+.header_instructions h2 {
+  color: white;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.header_instructions ol {
+  padding: 0;
+  color: white;
+  padding-left: 20px;
+}
+
+.header_instructions ol li {
+  margin-top: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  -webkit-box-shadow: 0px 10px 36px -7px rgba(0, 0, 0, 0.67);
+  box-shadow: 0px 10px 36px -7px rgba(0, 0, 0, 0.67);
+  padding: 20px;
+}
+
+.form_input_container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.form_input label {
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.form_input input {
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.form_input p,
+.form_input span {
+  font-size: 15px;
+}
+
+.form_input span {
+  margin-top: -5px;
+}
+
+
+.button_container {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.button_container button {
+  background-color: #ffae0d;
+  outline: none;
+  border: none;
+  width: 30%;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 23px;
+  transition: .3s;
+  color: white;
+
+}
+
+.button_container button:hover {
+  background-color: #f3a509;
+  cursor: pointer;
+  color: black;
+}
+
+.button_container button i {
+  margin-right: 15px;
+}
